@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    font-family: 'Dancing Script', sans-serif;
+}
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Input Bar styling */
+.input-div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    font-size: 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(160, 100%, 60%);
+}
+
+button:active {
+    background-color: aquamarine;
+}
+
+/* Bottom text styling */
+.left-to-do {
+ text-align: center;
+ font-size: 30px;
+}
+
+.todo {
+    width: 100%;
+    font-size: 30px;
+}
+
+.check {
+    height: 35px;
+    width: 35px;
+    margin: auto 20px auto 35px;
+}
+
+.hr {
+    margin: 15px 75px;
+}
