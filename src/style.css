@@ -37,9 +37,12 @@ button:active {
 }
 
 /* Bottom text styling */
-.left-to-do {
- text-align: center;
- font-size: 30px;
+footer {
+    position: fixed;
+    font-size: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .todo {

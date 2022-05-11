@@ -52,12 +52,11 @@ function App() {
         <button onClick={handleClearTodos}>Clear Completed</button>
       </div>
       <div className="todo">
-        <TodoList todos={todos} toggleTodo={toggleTodo}/>
+        <TodoList todos={todos} toggleTodo={toggleTodo} />
       </div>
-      <div className="left-to-do">
-        <div>{todos.filter(todo => !todo.complete).length} items left to complete</div>
-      </div>
-      
+      <footer className="left-to-do">
+        <p className="items-left">{todos.filter(todo => !todo.complete).length} items left to complete</p>
+      </footer>
     </>
   )
 }
